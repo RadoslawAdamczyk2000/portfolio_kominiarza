@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Dolniak Daniel || ekominiarz.eu</title>
+
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    
+    <link rel="shortcut icon" href="assets/logo.jpg" type="image/x-icon">
+
+    <link rel="stylesheet" href="src/main.css" type="text/css">
+
+
+    <style>
+
+        ::-webkit-scrollbar{width: 0;}
+
+        html{scroll-behavior:smooth;}
+
+        a{
+            text-decoration: none;
+        }
+
+        header{
+            height:90vh;
+            overflow: hidden;
+            background-image: url(https://cdn.pixabay.com/photo/2015/06/16/17/46/louise-briquette-factory-811418_960_720.jpg);
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+        }
+
+        #nameWebsite{
+            z-index: 3;
+            border-top-left-radius:5.5em;
+            border-top-right-radius:5.5em;
+            overflow: hidden;
+        }
+
+        /* #titleNextStage{
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 7vh;
+            height: 7vh;
+            font-size: 3em;
+            bottom: -9vh;
+            border-radius: 50%;
+        }
+
+        #titleNextStage button{
+            background: none;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+        } */
+
+    </style>
+
+
+</head>
+<body>
+    <!-- NAWIGACJA -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark" id="navPanel">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand fw-bold text-warning" id="title">EKOMINIARZ.EU</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <menu class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="#zakladKominiarski" class="nav-link">Zakład kominiarski</a></li>
+                    <li class="nav-item"><a href="#uslugi" class="nav-link">Usługi</a></li>
+                    <li class="nav-item"><a href="#wklady" class="nav-link">Wkłady kominowe</a></li>
+                    <li class="nav-item"><a href="#uprawnienia" class="nav-link">Uprawnienia</a></li>
+                    <li class="nav-item"><a href="#galeria" class="nav-link">Galeria</a></li>
+                    <li class="nav-item"><a href="#kontakt" class="nav-link">Kontakt</a></li>
+                </ul>
+            </menu>
+        </div>
+    </nav>
+    <!-- HEADER -->
+    <header class="container-fluid w-100 bg-light p-0 position-relative">
+        <article class="position-absolute translate-middle start-50 top-50 container text-warning">
+            <section id="name" class="text-center">
+                <h1 class="display-1 fw-bold">Dolniak Daniel</h1>
+                <h4 class="fw-lighter">ekominiarz.eu</h4>
+            </section>
+            <a href="#titlePage" id="titleNextStage" role="button" class="px-3 position-absolute start-50 translate-middle-x fs-1 my-4 bt-lg text-white border border-3 border-white"><i class="far fa-angle-double-down  animate__animated animate__heartBeat animate__infinite"></i></a>
+        </article>
+    </header>
+    
+
+    <!-- Artykuły/Sekcje -->
+
+
+    <article id="titlePage" class="container-fluid position-relative py-3" >
+        <div class="row my-4 py-5">
+            <section class="col-sm  text-center" data-aos="zoom-in-up">
+                <i class="fal fa-phone-office display-5"></i>
+                <p class="fs-5">504-597-371</p>
+            </section>  
+            <section class="col-sm text-center" data-aos="zoom-in-up">
+                <i class="fal fa-briefcase display-4"></i>
+                <p class="fs-3">Piaskowa 33, 63-100 Śrem</p>
+            </section>
+            <section class="col-sm text-center " data-aos="zoom-in-up">
+                <i class="fal fa-envelope-open-text display-5"></i>
+                <p class="fs-5">ekominiarz.eu@gmail.com</p>
+            </section>
+      </div>
+      <a href="#zakladKominiarski" id="nextStage" role="button" class="position-absolute start-50 translate-middle-x fs-3 my-1 btn-lg bg-dark text-white" style="z-index: 2;"><i class="fal fa-caret-circle-down"></i></a>
+    </article>
+
+    <header class="container-fluid w-100 bg-light p-0 position-relative"></header>
+
+    <article id="zakladKominiarski"  class="py-3" style="height: auto;">
+        <h1 class="text-center my-1 display-3 fw-normal">Zakład kominiarski</h1>
+        <article class="p-3 px-4 my-1 fs-5">
+            <section>
+                <p data-aos="fade-up">
+                    Świadczymy kompleksowe usługi kominiarskie na terenie Śremu i województwa wielkopolskiego. Zachęcamy do zapoznania się z naszą szczegółową ofertą.Nasz zakład kominiarski świadczy również kompleksowe usługi związane z montażem wkładów kominowych oraz kominów zewnętrznych izolowanych. Przeprowadzamy montaż wkładów i kominów kwasoodpornych i żaroodpornych do pieców gazowych, olejowych, węglowych, na ekogroszek, pellet, itd.Zapewniamy pełen profesjonalizm i terminowe wykonanie każdego zadania. Posiadamy już ponad 30 - letnią tradycję w rzemiośle kominiarskim przekazywaną z pokolenia na pokolenie.
+                </p>
+            </section>
+            <section class="fw-bolder px-5">
+                <p data-aos="fade-up">
+                    Przypominam, że wg Rozporządzenia Ministra Spraw Wewnętrznych i Administracji z dnia 7 czerwca 2010 r. w sprawie ochrony przeciwpożarowej budynków, innych obiektów budowlanych i terenów (Dz.U. 2010 nr poz. 719) czyszczenie przewodów powinno być wykonywane:
+                </p>
+                <ul>
+                    <li data-aos="fade-up">Przewody wentylacyjne - co najmniej 1 raz w ciągu roku,</li>
+                    <li data-aos="fade-up">Przewody spalinowe (kotły CO gazowe, olejowe) - co najmniej raz na 6 miesięcy,</li>
+                    <li data-aos="fade-up">Przewody dymowe co najmniej raz na 3 miesiące,</li>
+                    <li data-aos="fade-up">Przewody od palenisk zakładów zbiorowego żywienia i usług gastronomicznych - co najmniej raz w miesiącu, jeżeli przepisy miejscowe nie stanowią inaczej.</li>
+                </ul>
+            </section>
+            <section>
+                <p class="text-center" data-aos="fade-up">Okresowa kontrola przewodów kominowych, co najmniej raz w roku wg art. 62 pkt. 1c) wynika z Ustawy z dnia 7 lipca 1994 r. - Prawo budowlane (Dz.U. 1994 nr 89 poz. 414).</p>
+            </section>
+        </article>
+        <a href="#uslugi"  id="nextStage" class="position-absolute start-50 translate-middle-x fs-3 my-1 bg-dark text-white btn-lg" role="button" style="z-index: 2;"><i class="fal fa-caret-circle-down"></i></a>
+    </article>
+
+    <header class="container-fluid w-100 bg-light p-0 position-relative"></header>
+
+    <article id="uslugi"  class="py-3">
+        <h1 class="text-center my-1 display-3 fw-normal">Usługi kominiarskie</h1>
+        <article  class="p-3 px-3 my-1 fs-5">
+            <section>
+                <p data-aos="fade-up">
+                    Zakres prowadzonych prac:
+                </p>
+            </section>
+            <section class="fw-bolder px-5">
+                <ul>
+                    <li data-aos="fade-up"> Przeprowadzanie okresowych kontroli przewodów kominowych w oparciu o art. 62 ustawy Prawo Budowlane z dnia 7.07.1994 r. (Dz. U. Nr 89 poz. 414 z późniejszymi zmianami).</li>
+                    <li data-aos="fade-up">Opiniowanie przewodów kominowych i urządzeń grzewczych dla potrzeb Gazowni, Wydziałów Architektury, Urzędów Gmin itp.</li>
+                    <li data-aos="fade-up">Opiniowanie i odbiór przewodów kominowych po zakończeniu budowy.</li>
+                    <li data-aos="fade-up">Inwentaryzacja przewodów kominowych wraz z wykonaniem pełnej dokumentacji w postaci rzutów poziomych lub pionowych przewodów kominowych, wraz z ich podłączeniami.</li>
+                    <li data-aos="fade-up">Przeprowadzanie kontroli, konserwacji, pomiarów urządzeń i instalacji wentylacji mechanicznej.</li>
+                    <li data-aos="fade-up">Profesjonalna obsługa administracji, instytucji i wspólnot mieszkaniowych - możliwość zawierania stałych umów.</li>
+                    <li data-aos="fade-up">Czyszczenie, sprawdzanie przewodów kominowych oraz urządzeń grzewczo - kominowych; udrożnienia przewodów kominowych; wymiana rozet, kratek wentylacyjnych, drzwiczek rewizyjnych, rur podłączeniowych; czyszczenie piecy kaflowych; zabezpieczanie wylotów przewodów kominowych przed ptakami itp.;</li>
+                    <li data-aos="fade-up">Doradztwo techniczne.</li>
+                </ul>
+            </section>
+            <section>
+                <p data-aos="fade-up">
+                    Mamy już ponad 30-letnią tradycję w rzemiośle kominiarskim, przekazywaną z pokolenia na pokolenie. Zapraszamy do współpracy.
+                </p>
+            </section>
+        </article>
+        <a href="#wklady"  id="nextStage" role="button" class="position-absolute start-50 translate-middle-x fs-3 my-1 bg-dark text-white btn-lg" style="z-index: 2;"><i class="fal fa-caret-circle-down"></i></a>
+    </article>
+
+    <header class="container-fluid w-100 bg-light p-0 position-relative"></header>
+
+    <article id="wklady" class="py-3">
+        <h1 class="text-center my-1 display-3 fw-normal">Wkłady kominowe, kominy izolowane</h1>
+        <article  class="p-3 px-3 my-1 fs-5">
+            <section>
+                <p data-aos="fade-up">
+                    Nasz zakład kominiarski świadczy kompleksowe usługi związane z montażem wkładów kominowych. Przeprowadzamy montaż wkładów kwasoodpornych i żaroodpornych do pieców gazowych, olejowych, węglowych, na ekogroszek, pellet, itd odpowiednio:
+                </p>
+            </section>
+            <section class="fw-bolder px-5">
+                <ul>
+                    <li data-aos="fade-up">wkłady ze stali kwasoodpornej do kanałów spalinowych przeznaczonych do odprowadzania spalin z kotłów gazowych i olejowych</li>
+                    <li data-aos="fade-up">wkłady ze stali żaroodpornej do kanałów dymowych przeznaczonych do odprowadzania spalin z kotłów na paliwa stałe tj. węgiel, miał, ekogroszek, drewno, pellet</li>
+                    <li data-aos="fade-up">kominy dwuścienne żaroodporne, kwasoodporne</li>
+                </ul>
+            </section>
+            <section>
+                <p data-aos="fade-up">
+                    Oferujemy również montaż różnego typu nasad kominowych, stałych, obrotowych (daszków, turbowentów, rotowentów, itp.).
+                </p>
+            </section>
+        </article>
+        <a href="#uprawnienia"  id="nextStage" class="position-absolute start-50 translate-middle-x fs-3 my-1 bg-dark text-white btn-lg" role="button" style="z-index: 2;"><i class="fal fa-caret-circle-down"></i></a>
+    </article>
+
+    <header class="container-fluid w-100 bg-light p-0 position-relative"></header>
+
+        <article id="uprawnienia" class="py-3">
+            <h1 class="text-center my-1 display-3 fw-normal">Uprawnienia</h1>
+
+            <article class="container">
+               <section class="row">
+                    <figure class="col-sm text-center"><img class="img-fluid" src="assets/swiadectwo-kwalifikacyjne.jpeg" alt="" data-aos="zoom-in-up"></figure>
+                    <figure class="col-sm text-center"><img class="img-fluid" src="assets/dyplom-mistrzowski.jpeg" alt="" data-aos="zoom-in-up"></figure>
+               </section>
+            </article>
+
+
+
+
+            <a href="#galeria"  id="nextStage" class="position-absolute start-50 translate-middle-x fs-3 my-1 bg-dark text-white btn-lg" role="button" style="z-index: 2;"><i class="fal fa-caret-circle-down"></i></a>
+        </article>
+
+
+
+        <header class="container-fluid w-100 bg-light p-0 position-relative"></header>
+
+        <article id="galeria" class="py-3">
+            <h1 class="text-center my-1 display-3 fw-normal">Galeria</h1>
+
+            <article class="container">
+                <section class="row">
+                    <figure class="col-sm"><img class="img-fluid" src="assets/1.jpeg" alt="" data-aos="zoom-in-up"></figure>
+                    <figure class="col-sm"><img class="img-fluid" src="assets/2.jpeg" alt="" data-aos="zoom-in-up"></figure>
+                    <figure class="col-sm"><img class="img-fluid" src="assets/3.jpeg" alt="" data-aos="zoom-in-up"></figure> 
+                </section>
+                <section class="row">
+                    <figure class="col-sm"><img class="img-fluid" src="assets/4.jpeg" alt="" data-aos="zoom-in-up"></figure>
+                    <figure class="col-sm"><img class="img-fluid" src="assets/5.jpeg" alt="" data-aos="zoom-in-up"></figure>
+                    <figure class="col-sm"><img class="img-fluid" src="assets/6.jpeg" alt="" data-aos="zoom-in-up"></figure>
+                </section>
+                <section class="row">
+                    <figure class="col-sm"><img class="img-fluid" src="assets/7.jpeg" alt="" data-aos="zoom-in-up"></figure>
+                    <figure class="col-sm"><img class="img-fluid" src="assets/8.jpeg" alt="" data-aos="zoom-in-up"></figure>
+                    <figure class="col-sm"><img class="img-fluid" src="assets/9.jpeg" alt="" data-aos="zoom-in-up"></figure>
+                </section>
+            </article>
+            <a href="#kontakt"  id="nextStage" class="position-absolute start-50 translate-middle-x fs-3 my-1 bg-dark text-white btn-lg" role="button" style="z-index: 2;"><i class="fal fa-caret-circle-down"></i></a>
+        </article>
+
+
+
+    <header class="container-fluid w-100 bg-light p-0 position-relative"></header>
+
+
+
+
+        <article id="kontakt" class="py-3">
+            <article class="container-fluid" id="mapaGoogle">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2451.406590307894!2d17.024484315791536!3d52.09053147973526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470500e72beb8415%3A0xb5f826db8fcce93!2sPiaskowa%2033%2C%2063-100%20%C5%9Arem!5e0!3m2!1spl!2spl!4v1620231935401!5m2!1spl!2spl" allowfullscreen="" loading="lazy" class="container-fluid my-3" style="border:none;"></iframe>
+                
+            </article>
+             <article class="container  py-3 position-relative" id="formularzKontaktowy">
+                <form class="container py-4" id="formularzKontaktowy">
+                    <article class="row">
+                        <section class="col-sm">
+                            <input type="text" name="name" id="name" placeholder="Imię" class="my-1 form-control border border-2 border-dark">
+                        </section>
+                        <section class="col-sm">
+                            <input type="email" name="mail" id="mail" placeholder="E-mail"  class="my-1 form-control border border-2 border-dark">
+                        </section>
+                    </article>
+                    <textarea name="message" id="message" rows="5" placeholder="Wiadomość.."  class="my-1 form-control border border-2 border-dark"></textarea>
+                    <button  role="button" class="btn btn-dark position-absolute start-50 top-75 translate-middle-x">Wyślij</button>
+                </form>
+           
+            </article> 
+
+            <!-- <article class="container-fluid">
+                <section class="row">
+                    <article class="col-sm my-4 align-center position-relative">
+                        <section class="container position-absolute top-50 start-50 translate-middle">
+                            <form>
+                                <article class="row">
+                                    <section class="col-sm">
+                                        <input type="text" name="name" id="name" placeholder="Imię" class="my-1 form-control border border-2 border-dark">
+                                    </section>
+                                    <section class="col-sm">
+                                        <input type="email" name="mail" id="mail" placeholder="E-mail"  class="my-1 form-control border border-2 border-dark">
+                                    </section>
+                                </article>
+                                <textarea name="message" id="message" rows="5" placeholder="Wiadomość.."  class="my-1 form-control border border-2 border-dark"></textarea>
+                                <button  role="button" class="btn btn-dark btn-lg position-absolute start-50 translate-middle-x top-75 my-4">Wyślij</button>
+                            </form>
+                        </section>
+                    </article>
+                    <article class="col-sm text-center">
+                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fekominiarz.eu&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=false&hide_cover=false&show_facepile=false&appId"  style="border:none;overflow:hidden" scrolling="no" height="500" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                    </article>
+                </section>
+            </article> -->
+        </article>
+        <footer class="bg-dark text-light text-center fs-6 py-2"><a href="#" class="link text-warning">radamczyk.pl</a> &copy; 2021</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <a href="#navPanel" class="position-fixed " style="right: 5vh;bottom: 5vh;"><button type="button" class="btn-lg btn-light text-secondary" style="border-radius:50%;border:0; "><i class="fad fa-angle-double-up"></i></button></a>
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+
+    <script>
+        console.log('JavaScript działa');
+        AOS.init();
+        console.log('AnimatedOnScroll działa');
+    </script>
+</body>
+</html>
